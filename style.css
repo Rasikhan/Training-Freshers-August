@@ -1,0 +1,46 @@
+
+body {
+    background: #000000;
+    margin: 0;
+    color: azure;
+    
+    text-align: center;
+    margin-top: 10%;
+    
+    justify-content: center;
+    align-items: center;
+}
+  
+  li  {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+        
+  }
+  .seat{
+      height: 12px;
+      width: 15px;
+      background-color: #444451;
+      display: inline-block;
+      justify-content: center;
+      align-items: center;
+  }
+  .seat-selected{
+    height: 12px;
+    width: 15px;
+    background-color: #1bf1f8;
+    display: inline-block;
+}
+.seat-occupied{
+    height: 12px;
+    width: 15px;
+    background-color: #ffffff;
+    display: inline-block;
+}
+.screen{
+    height: 54px;
+    width: 141px;
+    background-color: #f6f8f8f1;    
+    display: inline-block;
+   }
